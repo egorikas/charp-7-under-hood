@@ -1,4 +1,5 @@
-﻿  internal class Program
+﻿  ```csharp
+  internal class Program
   {
     private static Task Main(string[] args)
     {
@@ -21,3 +22,4 @@
 			/// State machine
 	}
   }
+```

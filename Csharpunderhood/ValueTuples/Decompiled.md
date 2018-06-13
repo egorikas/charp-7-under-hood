@@ -1,4 +1,5 @@
-﻿    private static void Main(string[] args)
+﻿  ```csharp    
+	private static void Main(string[] args)
     {
       ValueTuple<string, int> personalInfo1 = Program.GetPersonalInfo();
       Console.WriteLine(string.Format("Имя - {0}, возраст - {1}", (object) personalInfo1.Item1, (object) personalInfo1.Item2));
@@ -21,3 +22,4 @@
     {
       return new ValueTuple<string, int>("Алиса", 123);
     }
+  ```
