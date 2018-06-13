@@ -5,9 +5,9 @@ namespace AsyncMain
 {
     class Program
     {
-        static Task Main(string[] args)
+        static async Task Main(string[] args)
         {
-            return Task.CompletedTask;
+            await Task.Delay(1);
         }
     }
 }
